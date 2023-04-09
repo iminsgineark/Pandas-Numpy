@@ -1,0 +1,8 @@
+print("Enter Num1")
+Num1 = input()
+print("Enter Num2")
+Num2 = input()
+print("The Sum Is :", int(Num1) + int(Num2))
+print("The Difference Is :",int(Num1) - int(Num2))
+print("The Multiplication Is :" , int(Num1)*int(Num2))
+print("The Division Is:", int(Num1)/int(Num2))

@@ -1,0 +1,6 @@
+string1 = input("Enter The String  (Use Double Spaces Also)\n")
+doubleSpaces = string1.find("  ")
+print(doubleSpaces)
+print("Number Of Double Spaces Are :",doubleSpaces)
+Spaces = string1.find(" ")
+print("Number Of Spaces Are :",Spaces)
