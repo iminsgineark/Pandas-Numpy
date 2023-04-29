@@ -1,0 +1,6 @@
+print("Enter The Co-Ordinates")
+Co_Od1 = int(input("Enter 1st Input\n"))
+Co_Od2 = int(input("Enter 2nd Input\n"))
+Co_Od3 = int(input("Enter 3rd Input\n"))
+Co_Od4 = int(input("Enter 4th Input\n"))
+print([[a, b, c] for a in range(0, Co_Od1 + 1) for b in range(0, Co_Od2 + 1) for c in range(0 , Co_Od3 + 1) if a + b + c != Co_Od4])
