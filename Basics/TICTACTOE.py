@@ -1,4 +1,3 @@
-
 import pygame, sys
 import numpy as np
 
